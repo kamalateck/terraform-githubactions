@@ -67,7 +67,7 @@ jobs:
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v2
         with:
-        credentials_json: '${{ secrets.GCP_CREDENTIALS_JSON }}'
+          credentials_json: '${{ secrets.GCP_CREDENTIALS_JSON }}'
 
       - name: Terraform Init
         working-directory: ${{ env.TF_WORKING_DIR }}
@@ -102,7 +102,7 @@ jobs:
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v2
         with:
-        credentials_json: '${{ secrets.GCP_CREDENTIALS_JSON }}'
+          credentials_json: '${{ secrets.GCP_CREDENTIALS_JSON }}'
 
       - name: Terraform Init
         working-directory: ${{ env.TF_WORKING_DIR }}
