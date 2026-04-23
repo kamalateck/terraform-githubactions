@@ -34,7 +34,7 @@ jobs:
       - name: Set up gcloud CLI
         uses: google-github-actions/setup-gcloud@v2
         with:
-          project_id: xenon-alliance-465110-v6
+          project_id: new-dev-492605
           
       - name: Terraform Init
         working-directory: ${{ env.TF_WORKING_DIR }}
