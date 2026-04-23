@@ -4,4 +4,3 @@ terraform {
 
 provider "null" {}
 # trigger update
-# new line
